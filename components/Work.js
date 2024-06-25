@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const Experience = ({ title, cards }) => {
 	return (
-		<div id="skills" className="bg-secondary py-5 px-5">
+		<div id="experience" className="bg-secondary py-5 px-5">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">

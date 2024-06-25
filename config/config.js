@@ -63,8 +63,13 @@ export const experience = {
       icons: null,
     },
     {
+      title: "AICTE",
+      description: "Re-architected AWS full-stack app achieving 99.99% uptime, 20% cost reduction with EC2, RDS (MongoDB), Elastic Beanstalk. Enhanced UI with React, boosting engagement by 35%, reducing load times 40% using hooks, context API, Redux.",
+      icons: null,
+    },
+    {
       title: "Virtusa",
-      description: "I create responsive static websites using Reactjs.",
+      description: "Implemented microservices with Spring Boot, Spring Data JPA, and Spring Config Server. Deployed on Google Kubernetes Engine (GKE), achieving 70% faster deployments and optimized resource usage. Integrated Google Cloud AI Platform and TensorFlow for AI-driven automation and actionable insights.",
       icons: null,
     }
   ],
