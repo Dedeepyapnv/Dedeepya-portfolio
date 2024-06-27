@@ -38,12 +38,14 @@ export const Intro = ({ title, description, image, icons }) => {
 	);
 }
 
-export const About = ({ title, description }) => {
+export const About = ({ title, subtitle, description }) => {
 	return (
 		<div id="about" className="bg-white py-5 px-5">
-			<div className="container">
+			<div className="container  d-flex flex-column align-items-center">
 				<h1 className="text-primary fw-bold">{title}</h1>
-				<div className="px-sm-5">
+				<br></br>
+				<h5 className="text fw-bold" style={{ color: '#365B6D' }}>{subtitle}</h5>
+				<div className="px-sm-5 d-flex flex-row flex-wrap justify-content-center">
 					{description.map((value, index) => (
 						<p key={index} >{value}</p>
 					))}

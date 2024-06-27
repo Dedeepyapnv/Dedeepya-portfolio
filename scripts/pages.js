@@ -16,8 +16,7 @@ console.log(`Deploying to ${repoURL} branch ${branch}`);
  * [build_path] - The path to the built site
  * 
  * node scripts/pages.js <username> <branch>
- * i.e.
- * node scripts/pages.js hashirshoaeb master
+ * 
  */
 ghpages.publish(
   build_path,

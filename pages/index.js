@@ -22,6 +22,7 @@ export default function Home() {
       />
       <About
         title={about.title}
+        subtitle={about.subtitle}
         description={about.description}
       />
       <Experience
